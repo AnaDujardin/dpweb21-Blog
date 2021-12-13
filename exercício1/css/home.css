@@ -1,0 +1,41 @@
+/* Estilização do conteúdo principal da página index.html */
+
+.artigo{
+    background-color: #ffffff;
+    padding: 30px;
+    margin: 64px 0;
+    border-radius: 10px;
+}
+.cabecalho-artigo{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.cabecalho-data{
+    color: #b6b6b6;
+    font-size: 1em;
+    font-weight: 300;
+}
+.cabecalho-icone{
+    font-size: 1.5em;
+    color: #bc3fdb;
+}
+
+.cabecalho-icone:hover::before{
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.conteudo-img{
+    width: 100%;
+    height: 250px;
+    border-radius: 10px 10px 0 0;
+    background-image: linear-gradient(90deg, rgba(219, 73, 196, 0.3) 0%, rgba(188, 62, 219, 0.3) 100%), url(../img/photo-1636334265407-97ea707f856c.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 25%;
+}
+#artigo-4{
+    margin-top: 0;
+    border-radius: 0 0 10px 10px;
+}
